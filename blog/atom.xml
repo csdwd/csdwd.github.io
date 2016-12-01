@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[iOS]]></title>
-  <link href="www.fjhang.com/atom.xml" rel="self"/>
-  <link href="www.fjhang.com/"/>
-  <updated>2016-12-01T13:21:01+08:00</updated>
-  <id>www.fjhang.com/</id>
+  <title><![CDATA[Vonkin's blog.]]></title>
+  <link href="http://fjhang.com/atom.xml" rel="self"/>
+  <link href="http://fjhang.com/"/>
+  <updated>2016-12-01T14:45:30+08:00</updated>
+  <id>http://fjhang.com/</id>
   <author>
     <name><![CDATA[]]></name>
     
@@ -14,56 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[代理模式]]></title>
-    <link href="www.fjhang.com/14805640040570.html"/>
-    <updated>2016-12-01T11:46:44+08:00</updated>
-    <id>www.fjhang.com/14805640040570.html</id>
+    <title type="html"><![CDATA[HelloWorld]]></title>
+    <link href="http://fjhang.com/14805746196546.html"/>
+    <updated>2016-12-01T14:43:39+08:00</updated>
+    <id>http://fjhang.com/14805746196546.html</id>
     <content type="html"><![CDATA[
-<p>代理模式</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[大发光火就困了]]></title>
-    <link href="www.fjhang.com/14805143616127.html"/>
-    <updated>2016-11-30T21:59:21+08:00</updated>
-    <id>www.fjhang.com/14805143616127.html</id>
-    <content type="html"><![CDATA[
-<p>swifot</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[你还是]]></title>
-    <link href="www.fjhang.com/14805142856742.html"/>
-    <updated>2016-11-30T21:58:05+08:00</updated>
-    <id>www.fjhang.com/14805142856742.html</id>
-    <content type="html"><![CDATA[
-<p>你给换行符</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[dierge ceshi]]></title>
-    <link href="www.fjhang.com/14805141928039.html"/>
-    <updated>2016-11-30T21:56:32+08:00</updated>
-    <id>www.fjhang.com/14805141928039.html</id>
-    <content type="html"><![CDATA[
-<p>---Ths</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[基础语法]]></title>
-    <link href="www.fjhang.com/14805137602250.html"/>
-    <updated>2016-11-30T21:49:20+08:00</updated>
-    <id>www.fjhang.com/14805137602250.html</id>
-    <content type="html"><![CDATA[
-<p><code>This is a demo.</code></p>
+<p>HelloWorld！<br/>
+HelloWorld！</p>
 
 ]]></content>
   </entry>
