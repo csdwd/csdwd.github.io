@@ -4,7 +4,7 @@
   <title><![CDATA[Vonkin's blog.]]></title>
   <link href="http://fjhang.com/atom.xml" rel="self"/>
   <link href="http://fjhang.com/"/>
-  <updated>2016-12-01T15:40:49+08:00</updated>
+  <updated>2016-12-01T15:44:48+08:00</updated>
   <id>http://fjhang.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://www.mweb.im">MWeb</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[欢迎来到我的博客]]></title>
+    <link href="http://fjhang.com/14807264720837.html"/>
+    <updated>2016-12-03T08:54:32+08:00</updated>
+    <id>http://fjhang.com/14807264720837.html</id>
+    <content type="html"><![CDATA[
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iOS Xcode中PCH文件的使用]]></title>
@@ -30,7 +40,7 @@
 
 <h5 id="toc_0">PCH一些常见的用法</h5>
 
-<pre><code>//因为pch文件需要提前编译，在我们使用混编的时候，防止编译出错，所以我们需要先判断一下，只有在OC中导入
+<pre><code class="language-objectivec">//因为pch文件需要提前编译，在我们使用混编的时候，防止编译出错，所以我们需要先判断一下，只有在OC中导入
 //  __OBJC__是每个OC文件中都会定义的宏
 #ifdef __OBJC__
 //定义公用的宏

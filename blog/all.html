@@ -44,6 +44,14 @@
       <li><a href="index.html">Home</a></li>
       
         <li class="divider"></li>
+        <li><label>主页</label></li>
+
+          
+            <li><a title="欢迎来到我的博客" href="14807264720837.html">欢迎来到我的博客</a></li>
+          
+
+      
+        <li class="divider"></li>
         <li><label>iOS开发</label></li>
 
           
@@ -68,6 +76,12 @@
                   <ul id="side-nav" class="side-nav">
 
                     
+                      <li class="side-title"><span>主页</span></li>
+                        
+                          <li><a title="欢迎来到我的博客" href="14807264720837.html">欢迎来到我的博客</a></li>
+                        
+
+                    
                       <li class="side-title"><span>iOS开发</span></li>
                         
                           <li><a title="iOS Xcode中PCH文件的使用" href="14805752831961.html">iOS Xcode中PCH文件的使用</a></li>
@@ -88,51 +102,14 @@
 
 	
 		<div class="markdown-body">
-		<h1>iOS Xcode中PCH文件的使用</h1>
+		<h1>欢迎来到我的博客</h1>
 
-		<p><code>在iOS中pch文中件可以用来存放一些公用的宏，存放一些公用的头文件，和自定义Log（输出日志）等，一般常用在定义设备屏幕的宽度、高度、版本号等等。<br/>
-在Xcode5及以前Xcode会自动帮我们创建.pch文件，考虑到编译时的速度自Xcode6以后开始不再自动创建.pch文件了，这时如果我们需要的话，就要自己手动创建</code></p>
-
-<p><img src="http://upload-images.jianshu.io/upload_images/2273548-e77a82d2fdcac115.gif?imageMogr2/auto-orient/strip" alt="pch1.gif"/></p>
-
-<p><code>创建完成后，接下来要配置PCH文件</code></p>
-
-<p><img src="http://upload-images.jianshu.io/upload_images/2273548-a4222fa1d8041b53.gif?imageMogr2/auto-orient/strip" alt="配置PCH.gif"/></p>
-
-<h5 id="toc_0">PCH一些常见的用法</h5>
-
-<pre><code>//因为pch文件需要提前编译，在我们使用混编的时候，防止编译出错，所以我们需要先判断一下，只有在OC中导入
-//  __OBJC__是每个OC文件中都会定义的宏
-#ifdef __OBJC__
-//定义公用的宏
-#define HEIGHT 20
-//存放公用的一些头文件
-#import &quot;MYView.h&quot;
-//自定义Log输入日志
-
-#ifdef DEBUG  //在调试模式下
-    #define MYLog(...) NSLog(__VA_ARGS__)
-    #else  //Release模式下
-    #define MYLog(...)
-#endif  // #ifdef   需要 #endif 结束
-
-//获取屏幕的Frame、宽度和高度
-#define SCREEN_FRAME ([UIScreen mainScreen].applicationFrame)
-#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
-#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
-
-#endif
-</code></pre>
-
-<p><code>Debug和Release的切换用来控制MYLog的日志输出</code></p>
-
-<p><img src="http://upload-images.jianshu.io/upload_images/2273548-84365819d25b7fcf.gif?imageMogr2/auto-orient/strip" alt="debug.gif"/><br/>
-<code>如上图切换到Release即可取消在PCH文件中定义的MYLog的输入日志。</code></p>
-
-<h3 id="toc_1"><a href="http://www.jianshu.com/p/8c6190f023cb">在&#39;简书&#39;中查看</a></h3>
-
+		
 
 		</div>
+	
+
+ 
 	
 
  
